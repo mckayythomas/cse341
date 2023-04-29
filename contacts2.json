@@ -1,0 +1,26 @@
+{
+    "contact": {
+    "email": "benson@gmail.com",
+    "phone": "345123867",
+    "favorite-color": "Blue",
+    "birthday": "2000-06-06",
+    "firstName": "Benson",
+    "lastName": "Thomas"
+    },
+    "contact2": {
+    "email": "paulo@gmail.com",
+    "phone": 12398759,
+    "favorite-color": "Red",
+    "birthday": "1996-03-15",
+    "firstName": "Paulo",
+    "lastName": "Olechea"
+    },
+    "contact3": {
+    "email": "mariana@gmail.com",
+    "phone": 123456789,
+    "favorite-color": "Pink",
+    "birthday": "1996-09-23",
+    "firstName": "Mariana",
+    "lastName": "Rodriguez"
+  }
+}
