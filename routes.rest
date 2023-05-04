@@ -8,3 +8,6 @@ GET http://localhost:3000/contacts/644c7d646ab7fc9a8141d59b
 GET http://localhost:3000/contacts/644c7d176ab7fc9a8141d599
 ###
 GET http://localhost:3000/contacts/644c7d316ab7fc9a8141d59a
+
+###
+DELETE http://localhost:3000/contacts/644c7d316ab7fc9a8141d59a

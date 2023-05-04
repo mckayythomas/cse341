@@ -5,4 +5,6 @@ router.get('/', contactsController.getContacts);
 
 router.get('/:id', contactsController.getSingle);
 
+router.delete('/:id', contactsController.deleteContact);
+
 module.exports = router;
