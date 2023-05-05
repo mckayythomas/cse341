@@ -1,13 +1,68 @@
 ### contacts
 GET http://localhost:3000/
-###
+### GET ALL
 GET http://localhost:3000/contacts
-###
-GET http://localhost:3000/contacts/644c7d646ab7fc9a8141d59b
+### GET SINGLE
+GET http://localhost:3000/contacts/64543cbbfe2c2e594b0bfe57
 ###
 GET http://localhost:3000/contacts/644c7d176ab7fc9a8141d599
 ###
 GET http://localhost:3000/contacts/644c7d316ab7fc9a8141d59a
 
+### CRUD
+DELETE http://localhost:3000/contacts/64543cbbfe2c2e594b0bfe57
 ###
-DELETE http://localhost:3000/contacts/644c7d316ab7fc9a8141d59a
+POST http://localhost:3000/contacts
+Content-Type: application/json
+
+{
+    "email": "paulo@gmail.com",
+    "phone": 12398759,
+    "favoriteColor": "Red",
+    "birthday": "1996-03-15",
+    "firstName": "Paulo",
+    "lastName": "Olechea"
+}
+###
+PUT http://localhost:3000/contacts/64546eb34672c960e2807c1a
+Content-Type: application/json
+
+{
+    "updateKey": "lastName",
+    "value": "Greg"
+}
+
+
+
+// RENDER ROUTES
+###
+GET https://mckaythomas-cse341-lessons1-4.onrender.com
+### GET ALL CONTACTS
+GET https://mckaythomas-cse341-lessons1-4.onrender.com/contacts
+### GET one
+GET https://mckaythomas-cse341-lessons1-4.onrender.com/contacts/64546eb34672c960e2807c1a
+
+// CRUD operation
+### DELETE ONE
+DELETE https://mckaythomas-cse341-lessons1-4.onrender.com/64543ef87b1b89b7a3cbba3b
+### Create One
+POST https://mckaythomas-cse341-lessons1-4.onrender.com/localhost:3000/contacts
+Content-Type: application/json
+
+{
+    "email": "paulo@gmail.com",
+    "phone": 12398759,
+    "favoriteColor": "Red",
+    "birthday": "1996-03-15",
+    "firstName": "Paulo",
+    "lastName": "Olechea"
+}
+
+### Update one
+PUT https://mckaythomas-cse341-lessons1-4.onrender.com/contacts/64546eb34672c960e2807c1a
+Content-Type: application/json
+
+{
+    "updateKey": "lastName",
+    "value": "Greg"
+}
