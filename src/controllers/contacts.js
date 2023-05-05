@@ -60,7 +60,7 @@ const deleteContact = async (req, res) => {
     .collection('contacts')
     .deleteOne({ _id: userId });
   if (result.deletedCount === 1) {
-    res.status(200).json({ message: 'Contact deleted number ' + userId + ' successfully' });
+    res.status(200).json({ message: 'Contact deleted successfully ' + userId });
   } else {
     res.status(404).json({ message: 'Contact not found' });
   }
