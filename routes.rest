@@ -44,7 +44,7 @@ GET https://mckaythomas-cse341-lessons1-4.onrender.com/contacts/64546eb34672c960
 
 // CRUD operation
 ### DELETE ONE
-DELETE https://mckaythomas-cse341-lessons1-4.onrender.com/contacts/64548045009c51ffaebb30c3
+DELETE https://mckaythomas-cse341-lessons1-4.onrender.com/contacts/6454841c5d66799325da9aa5
 ### Create One
 POST https://mckaythomas-cse341-lessons1-4.onrender.com/contacts
 Content-Type: application/json
@@ -63,6 +63,6 @@ PUT https://mckaythomas-cse341-lessons1-4.onrender.com/contacts/64546eb34672c960
 Content-Type: application/json
 
 {
-    "updateKey": "lastName",
-    "value": "Freddy"
+    "updateKey": "firstName",
+    "value": "Harry"
 }

@@ -83,7 +83,6 @@ const updateContact = async (req, res) => {
     .db('contacts')
     .collection('contacts')
     .updateOne({ _id: userId }, { $set: update });
-  console.log(result);
   if (result.modifiedCount > 0 || result.matchedCount > 0) {
     res.status(204).send();
   } else {
