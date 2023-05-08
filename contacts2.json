@@ -1,7 +1,7 @@
 {
   "contact1": {
     "email": "benson@gmail.com",
-    "phone": "345123867",
+    "phone": 345123867,
     "favoriteColor": "Blue",
     "birthday": "2000-06-06",
     "firstName": "Benson",
