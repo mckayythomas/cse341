@@ -9,7 +9,7 @@
   "basePath": "/",
   "schemes": ["https"],
   "paths": {
-    "/": {
+    "/contacts": {
       "get": {
         "description": "",
         "produces": ["application/json"],
@@ -64,7 +64,7 @@
         }
       }
     },
-    "/{id}": {
+    "/contacts/{id}": {
       "get": {
         "description": "",
         "produces": ["application/json"],
